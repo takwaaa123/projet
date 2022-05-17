@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@0,300;0,400;1,100;1,300;1,400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  body {
+    background: #000000;
+    font-family: "Montserrat", sans-serif;
+  }
+
+header {
+
+    background-image: url(imagess/cords.jpg);
+   height: 100vh;
+   width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   
+
+
+}
+
+
+nav{
+  background-color: #000000;
+  display:flex;
+  align-items :right;
+  justify-content: space-between;
+  padding-top: 35px;
+  padding-left:2%;
+  padding-right:0px;
+  padding-bottom: 20px;
+  z-index:1 ;
+  
+}
+.logo{
+color: antiquewhite;
+letter-spacing: 1px;
+cursor:pointer;
+font-size: 30px;
+}
+nav ul{
+   padding-left: 600px;
+   
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+nav ul li{
+    list-style-type: none;
+    display: inline-flex;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color:antiquewhite;
+    font-weight: bold;
+    text-decoration: none;
+
+   
+}
+
+nav ul li a:hover{
+    color:rgb(138, 232, 255);
+    transition: .3s;
+}
+
+.jomla{
+position:absolute;
+top:200px;
+left:20px;
+transform: translateY(-50%); 
+
+}
+
+.jomla{
+    color:rgb(255, 246, 235);
+    margin: 20px 0px 20px;
+    font-size:75px;
+}
+.c2{
+    position:absolute;
+    top:300px;
+
+  transform: translateY(-50%);
+    color:rgb(255, 246, 235);
+  left:100px;
+  font-size:70px;
+}
+
+.main{
+  font-family: 'Anton', sans-serif;
+  height:650px;
+  width :1600px;
+ max-width:100%;
+ margin: 0 auto;
+ display:flex;
+  padding-top: 140px;
+  background-color: #131313;
+}
+
+.div1{
+  padding-left:100px;
+  color: beige;
+  top:300 px;
+  left: 10px;
+  font-size:50px;
+}
+.div2{
+  font-family: 'Anton', sans-serif;
+  padding-left:200px;
+  color: bisque;
+  top: 200px;
+  right:20px;
+  font-size: 23px;
+}
+
+.but{
+   
+   position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #2c2c2c;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px;
+    border-radius:10px;
+}
+.but:hover {
+  background-color:beige;
+  border:2px solid rgb(187, 187, 187);
+  cursor:pointer;
+}
+.main2{
+  height:1500px;
+  width :1600px;
+  max-width:100%;
+  margin: 0 auto;
+  display:inline-block;
+  padding-top: 60px;
+  background-color: #131313;
+ 
+  
+}
+
+.discover{
+  position: sticky;
+  width: 25%;
+  height: 100%;
+  float: left;
+  color: beige;
+  font-size:50px;
+  font-family: 'Anton', sans-serif;
+  border-collapse: collapse;
+
+}
+
+.div3{
+  padding-left:140px;
+  width: 25%;
+  height: 100%;
+  border-collapse: collapse;
+  color: bisque;
+  font-family: 'Anton', sans-serif;
+  font-size: 23px;
+
+  
+
+}
+
+.img{
+ padding-top:100px;
+  height:600px;
+  width: 350px;
+}
+.img2{
+  padding-top:100px;
+   height:600px;
+   width: 300px;
+ }
+
+.text{
+  color: aliceblue;
+  font-size: 30px;
+  padding-left:100px;
+}
+.div4{
+  width: 25%;
+  height: 100%;
+  position: relative;
+  float: right;
+left:250px;
+  border-collapse: collapse;
+
+
+
+
+  color: bisque;
+  }
+  
